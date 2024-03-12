@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "transcriber"
+version = "0.1.0"
+description = ""
+authors = ["akash <akashkupatro@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9.9"
+requests = "^2.31.0"
+ffmpeg-python = "^0.2.0"
+whisper-openai = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
